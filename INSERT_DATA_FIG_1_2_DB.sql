@@ -27,52 +27,52 @@ INSERT INTO Course
     VALUES ('Database', 'CS3380', 3, 'CS');
 
 /*Section Table*/
-INSERT INTO Section (
+INSERT INTO Section 
     VALUES (85, 'MATH2410', 'Fall', 07, 'King');
 
-INSERT INTO Section (
+INSERT INTO Section 
     VALUES (92, 'CS1310', 'Fall', 07, 'Anderson');
 
-INSERT INTO Section (
+INSERT INTO Section 
     VALUES (102, 'CS3320', 'Spring', 08, 'Knuth');
 
-INSERT INTO Section (
+INSERT INTO Section 
     VALUES (112, 'MATH2410', 'Fall', 08, 'Chang');
 
-INSERT INTO Section (
+INSERT INTO Section 
     VALUES (119, 'CS1310', 'Fall', 08, 'Anderson');
 
-INSERT INTO Section (
+INSERT INTO Section 
     VALUES (135, 'CS3380', 'Fall', 08, 'Stone');
 
-INSERT INTO Section (
+INSERT INTO Section 
     VALUES (200, 'MATH2410', 'Spring', 08, 'King');
 
 /*Grade_report Table*/
-INSERT INTO Grade_report (
+INSERT INTO Grade_report 
     VALUES (17, 112, 'B');
 
-INSERT INTO Grade_report (
+INSERT INTO Grade_report 
     VALUES (17, 119, 'C');
 
-INSERT INTO Grade_report (
+INSERT INTO Grade_report 
     VALUES (8, 85, 'A');
 
-INSERT INTO Grade_report (
+INSERT INTO Grade_report 
     VALUES (8, 92, 'A');
 
-INSERT INTO Grade_report (
+INSERT INTO Grade_report 
     VALUES (8, 102, 'B');
 
-INSERT INTO Grade_report (
+INSERT INTO Grade_report 
     VALUES (8, 135, 'A');
 
 /*Prerequisite Table*/
-INSERT INTO Prerequisite (
+INSERT INTO Prerequisite 
     VALUES ('CS3380', 'CS3320');
 
-INSERT INTO Prerequisite (
+INSERT INTO Prerequisite 
     VALUES ('CS3380', 'MATH2410');
 
-INSERT INTO Prerequisite (
+INSERT INTO Prerequisite 
     VALUES ('CS3320', 'CS1310');
