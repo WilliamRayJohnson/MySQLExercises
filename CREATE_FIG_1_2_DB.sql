@@ -26,7 +26,7 @@ CREATE TABLE Section (
         ON UPDATE CASCADE
         ON DELETE RESTRICT,
     Semester VARCHAR(7) NOT NULL,
-    Year INT NOT NULL,
+    Year YEAR NOT NULL,
     Instructor VARCHAR(20) NOT NULL
     PRIMARY KEY (Section_identifier));
 
