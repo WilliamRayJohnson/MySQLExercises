@@ -68,10 +68,28 @@ INSERT INTO Grade_report
     VALUES (8, 135, 'A');
     
 INSERT INTO Grade_report
-    Values (3, 200, 'C');
+    VALUES (3, 200, 'C');
+    
+INSERT INTO Grade_report
+    VALUES (3, 112, 'B');
+    
+INSERT INTO Grade_report 
+    VALUES (3, 119, 'A');
+    
+INSERT INTO Grade_report 
+    VALUES (3, 85, 'B');
     
 INSERT INTO Grade_report
     VALUES (10, 200, 'B');
+    
+INSERT INTO Grade_report
+    VALUES (10, 112, 'C');
+    
+INSERT INTO Grade_report 
+    VALUES (10, 119, 'C');
+    
+INSERT INTO Grade_report 
+    VALUES (10, 85, 'C');
 
 /*Prerequisite Table*/
 INSERT INTO Prerequisite 
