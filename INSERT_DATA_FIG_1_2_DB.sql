@@ -66,6 +66,12 @@ INSERT INTO Grade_report
 
 INSERT INTO Grade_report 
     VALUES (8, 135, 'A');
+    
+INSERT INTO Grade_report
+    Values (3, 200, 'C');
+    
+INSERT INTO Grade_report
+    VALUES (10, 200, 'B');
 
 /*Prerequisite Table*/
 INSERT INTO Prerequisite 
